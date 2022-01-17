@@ -123,3 +123,8 @@ st.write(payment[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.sidebar.write("""
+This app Developed By 
+**Tim 2**
+""")
