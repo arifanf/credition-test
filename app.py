@@ -43,7 +43,7 @@ else:
                 pekerjaan = st.sidebar.selectbox('Pekerjaan', ('DOKTER', 'PEGAWAI SWASTA,', 'MAHASISWA', 
                         'WIRASWASTA', 'TNI POLRI', 'IBU RUMAH', 'PEGAWAI NEGERI', 'GURU DOSEN', 'PETANI', 
                         'PENGACARA', 'OJEK', 'NELAYAN','PEGAWAI SWASTA', 'LAIN-LAIN'))
-                pengeluaran = st.sidebar.selectbox('Pengeluaran (minimal)', (2000001, 3000001, 1000001,  700001, 
+                pengeluaran = st.sidebar.selectbox('Pengeluaran (minimal range)', (2000001, 3000001, 1000001,  700001, 
                                 1500001,  700000, 4000000))
                 merk = st.sidebar.selectbox('Merk Motor Sebelumnya', ('BELUM PERNAH MEMILIKI', 'HONDA', 'YAMAHA', 
                         'SUZUKI', 'KAWASAKI', 'MOTOR LAIN'))
@@ -124,7 +124,4 @@ st.write(payment[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.sidebar.write("""
-This app Developed By 
-**Tim 2**
-""")
+st.caption("*This app Developed By <br>**Tim 2***")
