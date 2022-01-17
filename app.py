@@ -20,7 +20,7 @@ if uploaded_file is not None:
         input_df = pd.read_csv(uploaded_file)
 else:
         def user_input_features():
-                st.text('Manual Input')
+                st.sidebar.text('Manual Input')
                 motor = st.sidebar.selectbox('Tipe Motor',('REVO FIT FI', 'REVO CW FI', 'NEW SUPRA X 125 FI SW',
                         'NEW SUPRA X 125 FI CW', 'BEAT POP CBS ISS',
                         'NEW VARIO 125 CBS ISS', 'BEAT SPORTY CW', 'BEAT STREET CBS',
