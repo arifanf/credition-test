@@ -124,4 +124,4 @@ st.write(payment[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.caption("*This app Developed By <br>**Tim 2***")
+st.sidebar.caption("This app developed by **Tim 2**")
