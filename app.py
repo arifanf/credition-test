@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_page_config(page_title="Credition",
+st.set_page_config(page_title="Predict",
                     page_icon="credit-card")
 
 st.write("""
