@@ -10,9 +10,9 @@ st.set_page_config(page_title="Predict by credition.",
 st.write("""
 # Customer Payment Prediction
 
-This page to predict **Customer Payment** by Credition.
-Developed by Project team 2 : [Banyu](https://github.com/Kemi41), [Prissy](https://github.com/prissyyy), [Arifa](https://github.com/arifanf), [Mellisa](https://github.com/mellisairawan), [Taufiq](https://github.com/TaufiqHidayatullah528).
-""")
+This page to predict **Customer Payment** by Credition.""")
+st.write("\nDeveloped by Project team 2 : [Banyu](https://github.com/Kemi41), [Prissy](https://github.com/prissyyy), [Arifa](https://github.com/arifanf), [Mellisa](https://github.com/mellisairawan), [Taufiq](https://github.com/TaufiqHidayatullah528).
+")
 
 st.sidebar.header('Input Data')
 
